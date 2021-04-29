@@ -1,5 +1,8 @@
 package hu.nive.ujratervezes.jurassic;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class JurassicPark {
 
     private String dbUrl;
@@ -12,4 +15,8 @@ public class JurassicPark {
         this.dbPassword = dbPassword;
     }
 
+    public List checkOverpopulation() {
+        List<Object> dinosaur = new ArrayList<>();
+        return dinosaur;
+    }
 }
